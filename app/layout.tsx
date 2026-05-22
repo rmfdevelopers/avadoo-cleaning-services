@@ -13,14 +13,14 @@ const body = Inter({
 });
 
 export const metadata = {
-  title: 'Avadoo Cleaning Services | Pristine Facility Management Lagos',
-  description: 'Lagos premier facility management and industrial cleaning partner.',
+  title: 'Avadoo Cleaning Services | Professional Facilities Management Abuja',
+  description: 'Premium cleaning, fumigation, and facilities management solutions for homes, offices, and estates in Abuja.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${heading.variable} ${body.variable} font-sans`}>
+      <body className={`${heading.variable} ${body.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>
